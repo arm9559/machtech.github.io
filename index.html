@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- W3 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <!-- Styles -->
+        <!-- Document -->
+            <link rel="stylesheet" href="assets/css/document.css"/>
+        <!-- Header & Nav -->
+            <link rel="stylesheet" href="assets/css/Header/header.css"/>
+        <!-- Article & Sections -->
+            <link rel="stylesheet" href="assets/css/Article/article.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/software.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/moreeasily.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/productivity.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/feedback.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/teams.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/blogs.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/potential.css"/>
+        <!-- Footer -->
+            <link rel="stylesheet" href="assets/css/Footer/footer.css"/>
+        <!-- Swiper Slider -->
+            <link rel='stylesheet' href='https://unpkg.com/swiper@6.7.5/swiper-bundle.min.css'>
+    <!-- Swiper Script -->
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="col-12 container-fluid">
+        <!-- Navbar -->
+        <nav class="container col-11">
+            <div class="logo-container">
+                <img src="./assets/media/Header/logo.png" alt="Logo" title="Spaatz"/>
+            </div>
+            <div class="menu-container">
+                <ul class="nav-ul">
+                    <li class="active"><a href="#">Web App</a></li>
+                    <li><a href="#">Mobile App</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Utility Pages</a></li>
+                </ul>
+                <button class="nav-button">Request A Demo</button>
+            </div>
+            <div class="burger-container">
+                <img src="./assets/media/Header/burger.png" alt="Menu Icon" class="burger" onclick="menu()">
+            </div>
+        </nav>
+        <!-- End Of Navbar -->
+        <div class="inner" id="header-inner">
+            <span class="inner-text">
+                <h1>All your business analytics in <br/>a Single <b>Dashboard</b></h1>
+                <button class="inner-button" id="btn_style">
+                    Get Started
+                    <img src="./assets/media/Header/vector.png" alt="Vector">
+                </button>
+            </span>
+            <div class="inner-background">
+                <img src="./assets/media/Header/innerbackground.png" alt="Background Image" title="CRM" class="img-fluid">
+            </div>
+        </div>
+    </header>
+    <!-- Article -->
+    <article class="col-xxl-12">
+        <!-- Software Section -->
+        <section class="software container col-12">
+            <div class="text-container">
+                <div class="text-item">
+                    <h1 class="section-title">
+                        Perfect approach towards <b>software</b>
+                    </h1>
+                    <p>
+                        It’s a social collaboration mail software platform that employees really love to use, with rich personalized interface helps to promote your product and connect with good buyer.
+                    </p>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <div class="item-inner">
+                            <img src="./assets/media/Article/Software/pink.png" alt="Increase Workflow Image"/>
+                            <span class="item-inner-text">
+                                <h3>Increase Workflow</h3>
+                                <p>Abilities taken within a multiple platforms</p>
+                            </span>
+                        </div>
+                        <div class="item-inner">
+                            <img src="./assets/media/Article/Software/green.png" alt="Increase Workflow Image"/>
+                            <span class="item-inner-text">
+                                <h3>Secured Structure</h3>
+                                <p>Purpose oriented structures protect thedata</p>                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="software-background">
+                <img src="./assets/media/Article/Software/background.png" alt="Software Image" class="img-fluid"/>
+            </div>
+        </section>
+        <!-- End Software Section -->
+        <!-- More Easily Section-->
+        <section class="more-easily">
+            <div class="more-easily-child">
+                <div class="items-container-top">
+                    <div class="items">
+                        <span>
+                            <h1 class="section-title">
+                                Capture & convert <br/>excellent leads<br/><b>more easily.</b>
+                            </h1>
+                            <p>
+                                You can control the inbox like Turn Off Notifications, Choose When You Check In, Don’t Default to Email, Compose mail and reply the mail you want.
+                            </p>
+                        </span>
+                        <span>
+                            <img src="./assets/media/Article/MoreEasily/morebackgroundone.png" alt="More background" class="img-fluid"/>
+                        </span>
+                    </div>
+                </div>
+                <div class="items-container-center">
+                    <div class="items important">
+                        <h1>Important <br/>Tools</h1>
+                        <span>
+                            <img src="./assets/media/Article/MoreEasily/photoshop.png" alt="Photoshop"/>
+                            <img src="./assets/media/Article/MoreEasily/figma.png" alt="Figma"/>
+                            <img src="./assets/media/Article/MoreEasily/experiencedesign.png" alt="Experience Design"/>
+                        </span>
+                    </div>
+                    <div class="items support">
+                        <h1>Support for <br/> Responsive Design</h1>
+                        <img src="./assets/media/Article/MoreEasily/itemdesign.png" alt="Design" class="img-fluid"/>
+                    </div>
+                    <div class="items monitoring">
+                        <img src="./assets/media/Article/MoreEasily/monitoring.png" alt="monitoring"/>
+                    </div>
+                </div>
+                <div class="items-container-bottom">
+                    <div class="items">
+                        <div class="monitoring-items">
+                            <img src="./assets/media/Article/MoreEasily/monitoringframe.png" alt="Monitoring Image" class="img-fluid"/>
+                            <span>
+                                <h1>
+                                    Watch <br/> And Learn
+                                </h1>
+                                <button id="btn_style">
+                                    Explore App
+                                    <img src="./assets/media/Article/MoreEasily/vector.png" alt="Vector"/>
+                                </button>
+                            </span>
+                        </div>
+                        <div class="media-items">
+                            <h1>Image, Video, Audio<br/>Gif, support</h1>
+                            <span>
+                                <img src="./assets/media/Article/MoreEasily/gallery.png" alt="Gallery Icon"/>
+                                <img src="./assets/media/Article/MoreEasily/music.png" alt="Music Icon"/>
+                                <img src="./assets/media/Article/MoreEasily/video.png" alt="Video Icon"/>
+                                <img src="./assets/media/Article/MoreEasily/gif.png" alt="Gif Icon"/>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End More Easily Section -->
+        <!-- Engagement & Productivity Section -->
+        <section class="productivity col-11">
+            <h1 class="section-title">
+                software that drives employee <br/>
+                <b>Engagement & productivity</b>
+            </h1>
+            <div class="productivity-child">
+                <div class="items">
+                    <div class="active">
+                        <span>
+                            <h1>
+                                Flexible & Powerful
+                            </h1>
+                            <p>
+                                Branding is the process of developing a company's brand, including name. 
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <h1>
+                                Simplified Workflow
+                            </h1>
+                            <p>
+                                Standard model of data storage in which the digital data and zip files are is stored.
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <h1>
+                                Branded Scheduling
+                            </h1>
+                            <p>
+                                Workflow management system designed to compose and execute a series.
+                            </p>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <h1>
+                                Reporting Analytics
+                            </h1>
+                            <p>
+                                Activity related to selling or the amount of services sold in a given time period.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="productivity-child-background">
+                    <img src="./assets/media/Article/Productivity/background.png" alt="Engagement & Productivity Background" class="img-fluid"/>
+                </div>
+            </div>
+        </section>
+        <!-- End Engagement & Productivity Section -->
+        <!-- Feedback Section -->
+        <section class="feedback">
+            <div class="feedback-child">
+                <div class="items">
+                    <div class="items-top-typography">
+                        <span class="star-span">
+                            <h1 class="section-title">
+                                Featured Feedback
+                            </h1>
+                            <img src="./assets/media/Article/Feedback/star.png" alt="Star" class="img-fluid"/>
+                        </span>
+                        <span>
+                            <p>
+                                helps us to build processes and automation into my business like a programmer without having to learn to code. My team is now using process to be
+                            </p>
+                        </span>
+                    </div>
+                    <div class="items-bottom-typography">
+                        <span class="bottom-span">
+                            <p>Utility Tech</p>
+                            <p>(4.5 / 5 Rating)</p>
+                        </span>
+                        <img src="./assets/media/Article/Feedback/stars.png" alt="Stars">
+                    </div>
+                </div>
+                <div class="feedback-child-background">
+                    <img src="./assets/media/Article/Feedback/background.png" alt="Feedback Background" class="img-fluid"/>
+                </div>
+            </div>
+        </section>
+        <!-- End Feedback Section -->
+        <section class="teams swiper-container">
+            <h1 class="section-title">
+                Loved by teams around the world
+            </h1>
+            <div class="teams-child swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/media/Article/Teams/one.png" alt="Team" class="img-fluid"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/media/Article/Teams/two.png" alt="Team" class="img-fluid"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/media/Article/Teams/tree.png" alt="Team" class="img-fluid"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/media/Article/Teams/four.png" alt="Team" class="img-fluid"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/media/Article/Teams/five.png" alt="Team" class="img-fluid"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/media/Article/Teams/six.png" alt="Team" class="img-fluid"/>
+                </div>
+            </div>
+        </section>
+        <section class="blogs">
+            <div class="blogs-child">
+                <div class="items">
+                    <img src="./assets/media/Article/Blogs/blog_img_one.png" alt="Blog Image" class="img-fluid"/>
+                    <h1>Young startups with Spaatz In Full Throttle</h1>
+                    <p>Capitalize on low-hanging fruit to identify a ballpark value added activity to beta test override the digital divide with DevOps.</p>
+                    <div class="bottom-items">
+                        <img src="./assets/media/Article/Blogs/border_image_one.png" alt="Blog Border Image" class="img-fluid"/>
+                        <span>
+                            <h4>Antony Wills</h4>
+                            <p>December 22, 2021 Entertainment</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="./assets/media/Article/Blogs/blog_img_two.png" alt="Blog Image" class="img-fluid"/>
+                    <h1>How to Choose A Tech Stack for Your Startup</h1>
+                    <p>Strategies on low-hanging fruit to identify a ballpark value added activity to beta test override the digital divide with DevOps.</p>
+                    <div class="bottom-items">
+                        <img src="./assets/media/Article/Blogs/border_image_two.png" alt="Blog Border Image" class="img-fluid"/>
+                        <span>
+                            <h4>Natalia Tena</h4>
+                            <p>December 22, 2021 Lifestyle</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="./assets/media/Article/Blogs/blog_img_tree.png" alt="Blog Image" class="img-fluid"/>
+                    <h1>More Powerful, Polished Spaatz for Android</h1>
+                    <p>Collaborative on low-hanging fruit to identify a ballpark value added activity to beta test override the digital form of the divide.</p>
+                    <div class="bottom-items">
+                        <img src="./assets/media/Article/Blogs/border_image_tree.png" alt="Blog Border Image" class="img-fluid"/>
+                        <span>
+                            <h4>John Methow</h4>
+                            <p>December 24, 2021 Productivity</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <button class="more-blogs-button" id="btn_style">
+                More Blogs
+                <img src="./assets/media/Article/Blogs/vector.png" alt="Vector"/>
+            </button>
+        </section>
+        <section class="potential">
+            <div class="potential-child container col-11">
+                <div class="potential-top-container">
+                    <h1>
+                        Unleash your growth potential
+                    </h1>
+                    <button class="potential-button" id="btn_style">
+                        Request Demo
+                        <img src="./assets/media/Article/Potential/vector.png" alt="Vector"/>
+                    </button>
+                </div>
+                <div class="potential-bottom-container">
+                    <img src="./assets/media/Article/Potential/background.png" alt="Background" class="img-fluid"/>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div class="footer-child container col-11">
+            <div class="footer-items-top">
+                <div class="logo">
+                    <img src="./assets/media/Footer/logo.png" alt="Logo Spaatz Text"/>
+                    <p>
+                        Spaatz is a professional yet creative dashboard for organize your business.
+                    </p>
+                    <div class="icons-bar">
+                        <img src="./assets/media/Footer/facebook.png" alt="Icon"/>
+                        <img src="./assets/media/Footer/twitter.png" alt="Icon"/>
+                        <img src="./assets/media/Footer/linkedin.png" alt="Icon"/>
+                        <img src="./assets/media/Footer/instagram.png" alt="Icon"/>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li class="li-title">Explore</li>
+                        <li>Web App</li>
+                        <li>Mobile App</li>
+                        <li>Blog App</li>
+                        <li>Contact App</li>
+                        <li>Demo App</li>
+                    </ul>
+                    <ul>
+                        <li class="li-title">Utility</li>
+                        <li>Licences</li>
+                        <li>Style Guide</li>
+                        <li>Change Log</li>
+                        <li>Protected</li>
+                        <li>Not Found</li>
+                    </ul>
+                    <ul>
+                        <li class="li-title">Category</li>
+                        <li>Lifestyle</li>
+                        <li>Productivity</li>
+                        <li>Social Media</li>
+                        <li>Entertain</li>
+                        <li>Creative</li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <img src="./assets/media/Footer/video.png" alt="Video" class="img-fluid"/>
+                </div>
+            </div>
+            <hr/>
+            <div class="footer-items-bottom">
+                <p>
+                    Spaatz © 2022. Designed by <b>Victorflow</b> - Powered by <b>Webflow</b>
+                </p>
+                <p>
+                    Entertainment / Lifestyle / Productivity / Social Media
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/header.js"></script>
+    <!-- End Of Header -->
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+    <script src='https://unpkg.com/swiper@6.7.5/swiper-bundle.min.js'></script>
+    <script>
+        new Swiper(".swiper-container", {
+        	slidesPerView: 1,
+	        slidesPerColumn: 1,
+	        spaceBetween: 50,
+        	breakpoints: {
+		        375: {
+        			slidesPerView: 3,
+		        	slidesPerColumn: 1,
+			        spaceBetween: 25
+		}
+	}
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+.feedback{
+    height: 859px;
+    width: 100%;
+    background: #1B2534;
+    .section-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 91px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+    .feedback-child{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        height: 100%;
+        padding: 50px;
+        .items{
+            .items-top-typography{
+                width: 687px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                height: 100%;
+                span{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    grid-gap: 20.64px;
+                    h1{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 65px;
+                        line-height: 91px;
+                        color: #FFFFFF;
+                    }
+                    p{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 35px;
+                        line-height: 46px;
+                        color: #ABABAB;
+                    }
+                }
+            }
+            .items-bottom-typography{
+                span{
+                    p:nth-child(1){
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 35px;
+                        line-height: 49px;
+                        color: #FFFFFF;
+                    }
+                    p:nth-child(2){
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 29px;
+                        color: #ABABAB;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Media Rules **/
+@media (max-width:1344px){
+    .feedback{
+        height: auto;
+        .feedback-child{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+@media (max-width:768px){
+    .items{
+        .items-top-typography{
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            text-align: center !important;
+            width: 100% !important;
+            .star-span{
+                display: flex;
+                flex-direction: column;
+                img{
+                    margin-top: -35px !important;
+                }
+            }
+            span{
+                text-align: center;
+                h1{
+                    width: 100% !important;
+                    font-size: 35px;
+                }
+                img{
+                    height: 25px !important;
+                }
+                p{
+                    font-size: 15px !important;
+                    line-height: 5vw !important;
+                }
+            }
+        }
+        .items-bottom-typography{
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: center !important;
+            span{
+                h1{
+                    width: 100% !important;
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 35px;
+                    text-align: center;
+                }
+            }
+            img{
+                height: 25px !important;
+            }
+        }
+    }
+}
+@media (max-width:402px){
+    .star-span{
+        h1{
+            font-size: 25px !important;
+        }
+    }
+    .bottom-span{
+        p{
+            font-size: 25px !important;
+        }
+    }
+}
+@media (max-width:317px){
+    .star-span{
+        h1{
+            font-size: 25px !important;
+            line-height: 40px !important;
+        }
+        img{
+            margin-top: 15px !important;
+        }
+    }
+    .bottom-span{
+        p{
+            font-size: 25px !important;
+        }
+    }
+}

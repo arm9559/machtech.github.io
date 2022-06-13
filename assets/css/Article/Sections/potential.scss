@@ -1,0 +1,65 @@
+.potential{
+    height: auto;
+    // height: 967px;
+    width: 100%;
+    margin-top: 170px;
+    background: linear-gradient(294.27deg, #30A8FF 0%, #C4F5C9 100%);
+    .potential-child{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .potential-top-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            justify-content: space-around;
+            width: 100%;
+            h1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 65px;
+                line-height: 84px;
+                text-transform: capitalize;
+                color: #1B2534;
+                width: 577px;
+            }
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                grid-gap: 17px;
+                height: 72px;
+                width: 261px;
+                background: #1B2534;
+                border: 1px solid #1B2534;
+                border-radius: 20px;
+                color: white;
+            }
+        }
+        .potential-bottom-container{
+            margin-top: 82px;
+        }
+    }
+}
+
+/** Media Rules **/
+@media (max-width:947px){
+    .potential-top-container{
+        text-align: center !important;
+    }
+}
+@media (max-width:555px){
+    .potential-top-container{
+        h1{
+            font-size: 25px !important;
+        }
+    }
+}
+@media (max-width:411px){
+    .potential-top-container{
+        h1{
+            font-size: 25px !important;
+            line-height: 45px !important;
+        }
+    }
+}

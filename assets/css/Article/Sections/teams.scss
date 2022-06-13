@@ -1,0 +1,16 @@
+.teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-top: 10.3515625vw;
+    .teams-child{
+        margin-top: 98px;
+        display: flex;
+        align-items: center;
+        img{
+            cursor: pointer;
+        }
+    }
+}
